@@ -2,7 +2,7 @@
 
 ### 팀 구성원
 
-![07745](C:\Users\SKCC\Desktop\bigdata\07745.jpg)![06704](C:\Users\SKCC\Desktop\bigdata\06703.jpg)![08363](C:\Users\SKCC\Desktop\bigdata\08363.jpg)
+![07745](08363.jpg)
 
 - 07745 이용희
 - 06703 김의현
