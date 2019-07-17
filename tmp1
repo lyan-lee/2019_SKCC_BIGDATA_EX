@@ -9,14 +9,46 @@
 호스트4		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.65.2
 호스트5		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.68.100
 
-- Setup /etc/hosts (All nodes)
-  $ sudo vi /etc/hosts
+--5개 서버 공통--
+1. Setup /etc/hosts (All nodes)
+sudo vi /etc/hosts
 172.31.3.35		m1.com m1
 172.31.11.79	cm.com cm
 172.31.7.199	d1.com d1
 172.31.9.132	d2.com d2
 172.31.8.76		d3.com d3
 
+2. yum update
+sudo yum update
+sudo yum install -y wget
+sudo yum install -y vim wget unzip
+
+3. selinux 정지
+상태확인
+sestatus
+상태변경
+sudo  vi /etc/selinux/config
+SELINUX=disabled
+
+4. ntp 설치
+sudo yum install -y ntp
+sudo systemctl start ntpd
+sudo systemctl enable ntpd
+ntpq -p
+
+5. pwd 설정
+sudo passwd centos
+비밀번호 skcc2019
+
+sudo vi /etc/ssh/sshd_config
+PasswordAuthentication yes  활성화
+sudo service sshd restart
+
+6. 재접속 후 hostname 변경
+sudo hostnamectl set-hostname m1.com
+hostname
+
+==========================================================================================
 - add user (All nodes) 
 	$ sudo useradd training -u 3800
 	$ sudo passwd training
