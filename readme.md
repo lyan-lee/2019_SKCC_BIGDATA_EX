@@ -32,6 +32,7 @@
 
 
 
+
 ## 1. System Configuration (공통-cluster  전체 수행)
 #### 1) AWS Instance 접속확인 
 
@@ -45,7 +46,7 @@
 호스트5		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.68.100
 ```
 
-![aws_chk](C:\Users\SKCC\Desktop\bigdata\aws_chk.png)
+![aws_chk](aws_chk.png)
 
 
 
@@ -60,7 +61,7 @@
 172.31.8.76		d3.com d3
 ```
 
-![hosts](C:\Users\SKCC\Desktop\bigdata\hosts.png)
+![hosts](hosts.png)
 
 
 
@@ -188,7 +189,7 @@ Redirecting to /bin/systemctl restart sshd.service
 
 - 재접속
 
-![ssh](C:\Users\SKCC\Desktop\bigdata\ssh.png)
+![ssh](ssh.png)
 
 
 
@@ -202,7 +203,7 @@ $ sudo hostnamectl set-hostname d2.com  <- 호스트4
 $ sudo hostnamectl set-hostname d3.com  <- 호스트5 
 ```
 
-![hostname](C:\Users\SKCC\Desktop\bigdata\hostname.png)
+![hostname](hostname.png)
 
 
 
