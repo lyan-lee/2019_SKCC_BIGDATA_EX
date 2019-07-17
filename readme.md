@@ -2,7 +2,7 @@
 
 ### 팀 구성원 (팀6)
 
-| ![07745](C:\Users\SKCC\Desktop\bigdata\07745.jpg) | ![06703](C:\Users\SKCC\Desktop\bigdata\06703.jpg) | ![08363](C:\Users\SKCC\Desktop\bigdata\08363.jpg) |
+| ![07745](07745.jpg) | ![06703](06703.jpg) | ![08363](08363.jpg) |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 | 이용희 (07745)<br />과금혁신Unit                  | 김의현 (06703)<br />과금혁신Unit                  | 김지현(08363)<br /> 과금혁신Unit                  |
 
@@ -41,7 +41,7 @@
 호스트5		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.68.100
 ```
 
-![aws_chk](C:\Users\SKCC\Desktop\bigdata\aws_chk.png)
+![aws_chk](aws_chk.png)
 
 
 
@@ -56,7 +56,7 @@ $ sudo vi /etc/hosts
 172.31.8.76		d3.com d3
 ```
 
-![hosts](C:\Users\SKCC\Desktop\bigdata\hosts.png)
+![hosts](hosts.png)
 
 
 
@@ -205,7 +205,7 @@ Redirecting to /bin/systemctl restart sshd.service
 $ ssh centos@15.164.68.100
 ```
 
-![ssh](C:\Users\SKCC\Desktop\bigdata\ssh.png)
+![ssh](ssh.png)
 
 
 
@@ -221,7 +221,7 @@ $ sudo hostnamectl set-hostname d3.com  <- 호스트5에서 수행
 
 - 재접속하여  HOSTNAME 변경확인
 
-![hostname](C:\Users\SKCC\Desktop\bigdata\hostname.png)
+![hostname](hostname.png)
 
 
 
