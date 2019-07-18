@@ -2,7 +2,7 @@
 
 ### 팀 구성원 (팀6)
 
-| ![07745](/images/07745.jpg) | ![06703](06703.jpg) | ![08363](08363.jpg) |
+| ![07745](/images/07745.jpg) | ![06703](/images/06703.jpg) | ![08363](/images/08363.jpg) |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 | 이용희 (07745)<br />과금혁신Unit                  | 김의현 (06703)<br />과금혁신Unit                  | 김지현(08363)<br /> 과금혁신Unit                  |
 
@@ -41,7 +41,7 @@
 호스트5		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.68.100
 ```
 
-![aws_chk](aws_chk.png)
+![aws_chk](/images/aws_chk.png)
 
 
 
@@ -56,7 +56,7 @@ $ sudo vi /etc/hosts
 172.31.8.76		d3.com d3
 ```
 
-![hosts](hosts.png)
+![hosts](/images/hosts.png)
 
 
 
@@ -205,7 +205,7 @@ Redirecting to /bin/systemctl restart sshd.service
 $ ssh centos@15.164.68.100
 ```
 
-![ssh](ssh.png)
+![ssh](/images/ssh.png)
 
 
 
@@ -221,7 +221,7 @@ $ sudo hostnamectl set-hostname d3.com  <- 호스트5에서 수행
 
 - 재접속하여  HOSTNAME 변경확인
 
-![hostname](hostname.png)
+![hostname](/images/hostname.png)
 
 
 
@@ -670,15 +670,15 @@ tcp        0      0 0.0.0.0:7180            0.0.0.0:*               LISTEN      
 
 #### 1) UI 로그인 :  [http://15.164.22.37:7180](http://15.164.22.37:7180/) (admin/admin)
 
-![ui0](ui0.png)
+![ui0](/images/ui0.png)
 
 #### 2) CDH 클러스터 설치할 호스트 지정
 
-![ui1](ui1.png)
+![ui1](/images/ui1.png)
 
 - 호스트명, IP주소 확인
 
-![ui2](ui2.png)
+![ui2](/images/ui2.png)
 
 
 
@@ -686,27 +686,27 @@ tcp        0      0 0.0.0.0:7180            0.0.0.0:*               LISTEN      
 
 - 설치한 CM  버전 확인 
 
-![ui3](ui3.png)
+![ui3](/images/ui3.png)
 
 - JDK 설치 옵션 - 선택 안함 (수동설치)
 
-![ui4](ui4.png)
+![ui4](/images/ui4.png)
 
 - 단일사용자 모드 활성화 - 선택안함
 
-![ui5](ui5.png)
+![ui5](/images/ui5.png)
 
 - SSH 로그인정보 입력 (centos/skcc2019)
 
-![ui6](ui6.png)
+![ui6](/images/ui6.png)
 
 - Agent 설치
 
-![ui7](ui7.png)
+![ui7](/images/ui7.png)
 
 - 클러스터 설치
 
-![ui8](ui8.png)
+![ui8](/images/ui8.png)
 
 
 
@@ -714,28 +714,28 @@ tcp        0      0 0.0.0.0:7180            0.0.0.0:*               LISTEN      
 
 - Impala가 있는 코어 선택
 
-![ui9](ui9.png)
+![ui9](/images/ui9.png)
 
 - 역할 할당
 
-![ui10](ui10.png)
+![ui10](/images/ui10.png)
 
 - 데이터베이스 설정
 
-![ui11](ui11.png)
+![ui11](/images/ui11.png)
 
 - 변경내용 검토 (변경없음)
 
-![ui12](ui12.png)
+![ui12](/images/ui12.png)
 
 - 실행
 
-![ui13](ui13.png)
+![ui13](/images/ui13.png)
 
 - 설정완료
 
-![ui14](ui14.png)
+![ui14](/images/ui14.png)
 
 - 최종 실행화면
 
-![ui15](ui15.png)
+![ui15](/images/ui15.png)
