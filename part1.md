@@ -32,6 +32,7 @@
 #### 1) AWS Instance 접속확인 
 
 - GIT BASH 통하여 접속 (pem 경로에서 수행하거나 전체경로명 지정)
+- 설치 : https://git-scm.com/
 
 ```
 호스트1		ssh -i /c/Users/SKCC/Desktop/bigdata/SKCC.pem centos@15.164.185.33
@@ -42,6 +43,8 @@
 ```
 
 ![aws_chk](/images/aws_chk.png)
+
+
 
 
 
