@@ -28,7 +28,7 @@ $ sudo usermod -aG wheel training
 
 
 
-#### 3) MariaDB에 training 게정을 생성
+#### 3) MariaDB에 training 정을 생성
 
 ```
 $ mysql -u root -p
