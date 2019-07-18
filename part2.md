@@ -67,6 +67,6 @@ $ ./training_materials/devsh/scripts/setup.sh
 
 
 
-## 2. 빅데이터 테스트
+## 2. 빅데이터 분석
 
-#### 1) 문제 1
+#### 1) ...
