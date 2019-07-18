@@ -820,7 +820,7 @@ tcp        0      0 0.0.0.0:7180            0.0.0.0:*               LISTEN      
 
 ![spark2](/images/spark22.png)
 
-![spark2a](/images/park2a.png)
+![spark2a](/images/spark2a.png)
 
 ![spark2b](/images/spark2b.png)
 
