@@ -51,7 +51,7 @@ $ select * from mysql.user where user ='training';
 
 #### 4) 실습데이터 세팅
 
-- Google Drive에서 link 확인 후 서버에 다운
+- Google Drive에서 link URL 확인 후 서버에 다운
 
 ```
 $ wget https://doc-0k-6o-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/qns5g0ghihb9jb0i60f5fnpl2eadnmns/1563415200000/14888820716761294211/*/1OOfGoDpDTnqt1TckO4wSqOoLBi6TDhUm?e=download
