@@ -233,11 +233,11 @@ $ sudo hostnamectl set-hostname d3.com  <- 호스트5에서 수행
 $ sudo yum install -y vim wget unzip
 $ cd /tmp
 $ sudo yum list java*jdk-devel
-$ sudo yum install java-1.7.0-openjdk-devel.x86_64  //1.7 설치
+$ sudo yum install java-1.8.0-openjdk-devel.x86_64
 $ java -version
-java version "1.7.0_221"
-OpenJDK Runtime Environment (rhel-2.6.18.0.el7_6-x86_64 u221-b02)
-OpenJDK 64-Bit Server VM (build 24.221-b02, mixed mode)
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-b04)
+OpenJDK 64-Bit Server VM (build 25.212-b04, mixed mode)
 ```
 
 - JAVA 설치경로 확인
@@ -251,14 +251,14 @@ $ which javac
 
 ```
 $ readlink -f /usr/bin/javac
-/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.221-2.6.18.0.el7_6.x86_64/bin/javac
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/bin/javac
 ```
 
 - bash_profile에 java_home경로 export
 
 ```
 $ sudo vi ~/.bash_profile
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.221-2.6.18.0.el7_6.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64
 ```
 
 - bash_profile 값 적용
@@ -271,7 +271,7 @@ $ source ~/.bash_profile
 
 ```
 $ echo $JAVA_HOME
-/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.221-2.6.18.0.el7_6.x86_64
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64
 ```
 
 
