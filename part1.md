@@ -225,7 +225,7 @@ $ sudo hostnamectl set-hostname d3.com  <- 호스트5에서 수행
 
 
 
-#### 8) jdk 1.7 설치 & JAVA 환경변수 추가
+#### 8) jdk 1.8 설치 & JAVA 환경변수 추가
 
 - jdk 설치
 
