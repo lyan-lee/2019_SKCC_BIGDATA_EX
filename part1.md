@@ -739,3 +739,91 @@ tcp        0      0 0.0.0.0:7180            0.0.0.0:*               LISTEN      
 - 최종 실행화면
 
 ![ui15](/images/ui15.png)
+
+
+
+
+#### 5) Kafka 설치
+
+-  패키지 다운로드 후 배포, 활성화
+
+![kafaka1](/images/kafka1.png)
+
+![kafaka2](/images/kafka2.png)
+
+- Kafka 설치
+
+![kafaka3](/images/kafka3.png)
+
+![kafaka4](/images/kafka4.png)
+
+- 변경내용 없이 계속
+
+![kafaka5](/images/kafka5.png)
+
+![kafaka6](/images/kafka6.png)
+
+- 시작 전 구성에서 Java Heap Size of Broker 값 50Mb -> 1Gin 로 변경
+
+![kafaka7](/images/kafka7.png)
+
+- Kafka 시작
+
+![kafaka8](/images/kafka8.png)
+
+
+
+
+#### 6)  FLUME설치
+
+![plume1](/images/plume1.png)
+
+![plume2](/images/plume2.png)
+
+![plume3](/images/plume3.png)
+
+![plume4](/images/plume4.png)
+
+![plume5](/images/plume5.png)
+
+
+
+
+
+#### 7) SCOOP 설치
+
+![scoop1](/images/scoop1.png)
+
+![scoop2](/images/scoop2.png)
+
+![scoop3](/images/scoop3.png)
+
+![scoop4](/images/scoop4.png)
+
+![scoop5](/images/scoop5.png)
+
+
+
+#### 8) SPARK 설치
+
+![spark2c](/images/spark2c.png)
+
+![spark2d](/images/spark2d.png)
+
+![spark2e](/images/spark2e.png)
+
+![spark2f](/images/spark2f.png)
+
+![spark2g](/images/spark2g.png)
+
+- SPAKR2 설치시 Parcel repo 추가 후 패키지 다운로드 및 배포, 활성화
+
+![spark2](/images/spark22.png)
+
+![spark2a](/images/park2a.png)
+
+![spark2b](/images/spark2b.png)
+
+
+
+
