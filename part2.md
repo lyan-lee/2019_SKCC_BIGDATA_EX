@@ -18,13 +18,13 @@ $ sudo passwd training
 $ sudo usermod -aG wheel training
 ```
 
-![user_training](C:\Users\SKCC\Desktop\bigdata\user_training.png)
+![user_training](/images/user_training.png)
 
 
 
 #### 2). HUE 접속하여 HDFS 계정생성 ( training/training )
 
-![hue1](C:\Users\SKCC\Desktop\bigdata\hue1.png)
+![hue1](/images/hue1.png)
 
 
 
